@@ -6,11 +6,15 @@
 The purpose of this program is to split an arbitiary long wav file into segments. The main application was used to create audio datasets.
 
 example of how to format command.
-'''
+```bash
 python wav_splitter.py -sf ____ -sd __________ [Optional Arguements]
-'''
+```
 
-'''
+# Optional Commands
+
+These are the optional command line arguments
+
+```bash
 usage: wav_split.py [-h] -sf SOUND_FILE [-sd SAVE_DIR] [-ss SAMPLE_SIZE] [-cv CSV_SAVE] [-head HEAD]
                     [-class CLASS_ID] [-name DATASET_NAME]
 
@@ -37,7 +41,7 @@ optional arguments:
                         
   -name DATASET_NAME, --dataset_name DATASET_NAME
                         name of the dataset
+```
 
-'''
 
 
